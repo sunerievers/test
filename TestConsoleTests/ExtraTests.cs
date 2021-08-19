@@ -14,6 +14,7 @@ namespace TestConsole.Tests
         [TestMethod()]
         public void HelloTest()
         {
+            Extra.Hello();
             Assert.IsTrue(true); //HACK
         }
     }
